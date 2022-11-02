@@ -66,11 +66,11 @@ header li {
 header a {
   text-decoration: none;
 }
-.assets {
-  background-image: url("assets/bbblurry.svg");
-  background-color: #cccccc;
-  background-size: cover;
+body {
+  background: rgb(21,36,227);
+background: linear-gradient(90deg, rgba(21,36,227,1) 5%, rgba(31,25,237,1) 22%, rgba(9,105,121,1) 40%, rgba(3,215,77,1) 82%, rgba(0,212,255,1) 100%);
 }
+
 /* Inherit fonts for inputs and buttons */
 input,
 button,
@@ -88,6 +88,14 @@ grid-row-gap: 0px;
 
 section.Amongus {
   text-align: center;
+  /*padding-top: 200px;*/
+}
+h1 {
+  font-size: 200px;
+}
+.bogs {
+  padding-left: 150px;
+  padding-top: 100px;
 }
 
 /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
