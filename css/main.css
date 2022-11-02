@@ -78,6 +78,9 @@ textarea,
 select {
   font: inherit;
 }
+ul {
+  border: 2px solid white;
+}
 .Amongus {
 display: grid;
 grid-template-columns: repeat(4, 1fr);
@@ -89,14 +92,33 @@ grid-row-gap: 0px;
 section.Amongus {
   text-align: center;
   /*padding-top: 200px;*/
+
+}
+div.ab {
+  border-top: 2px solid white;
+}
+div.bc {
+  border-top: 2px solid white;
+}
+div.cd {
+  border-top: 2px solid white;
+}
+div.de {
+  border-top: 2px solid white;
 }
 h1 {
   font-size: 200px;
+
+}
+p1 {
+  font-size: 20px;
+
 }
 .bogs {
   padding-left: 150px;
   padding-top: 100px;
 }
+
 
 /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
