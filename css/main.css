@@ -64,6 +64,7 @@ header ul li {
 }
 header li {
   margin-right: 1em;
+  flex-flow: column;
 }
 header a {
   text-decoration: none;
@@ -79,6 +80,7 @@ header {
 .search {
   border: 2px solid white;
 }
+
 body {
   background: rgb(21,36,227);
 background: linear-gradient(90deg, rgba(21,36,227,1) 5%, rgba(31,25,237,1) 22%, rgba(9,105,121,1) 40%, rgba(3,215,77,1) 82%, rgba(0,212,255,1) 100%);
@@ -100,7 +102,9 @@ grid-template-columns: repeat(4, 1fr);
 grid-template-rows: 1fr;
 grid-column-gap: 0px;
 grid-row-gap: 0px;
+font-size: 20px;
 }
+
 
 section.Amongus {
   text-align: center;
